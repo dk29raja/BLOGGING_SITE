@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.det{
+	background-color: #FFFFFF;
+	font-family: "Arial Black";
+	font-size:20px;
+	margin-top:20px;
+	margin-bottom:5px;
+	color: #343434;
+}
+
+textarea {
+    width: 200px;
+}
+

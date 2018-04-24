@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+	<link href="create_account.css" rel="stylesheet" type="text/css">
+		<title>
+			Create new account
+		</title>
+		<p class="det" style="font-size:50px">Create An Account For The Blogging Site:<p>
+	</head>
+	<body>
+		
+	<center>
+		<form action="/create_account.php" >
+			<p class="det">UserId:</p>
+			<input type="text" name="UserId">
+	  		<p class="det">First name:</p>
+	  		<input type="text" name="firstname">
+	  		
+		  	<p class="det">Last name:</p>
+		 	<input type="text" name="lastname">
+	  		
+		  	<p class="det">Email:</p>
+		 	<input type="text" name="Email">
+	  		
+			<p class="det">Type:</p>
+		 	<input type="radio" name="Type" value="Student" checked> Student<br>
+  			<input type="radio" name="Type" value="Faculty"> Faculty<br>
+		  	
+			<p class="det">Description:</p>
+		 	<input type="text" name="Description" rows="6" cols="30">
+	  		
+		  	<p class="det">Password:</p>
+		 	<input type="text" name="Password">
+			
+		  	<p class="det">Repeat Password:</p>
+		 	<input type="text" name="Repeat Password">
+		    <br>
+  <input type="submit" style="font-family:Arial" value="Submit">
+</form> 
+		</center>
+	</body>
+</html>
